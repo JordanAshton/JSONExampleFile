@@ -19,7 +19,7 @@ var image = Titanium.UI.createImageView({
 var tableData;
 
 // Parse our JSON file using onload
-var url = "https://raw.githubusercontent.com/44castle/testing-json/master/jsontest.json";
+var url = "https://raw.githubusercontent.com/JordanAshton/JSONExampleFile/master/JSONtwitterOutput.txt";
 var json;
 var xhr = Ti.Network.createHTTPClient({
 	onload: function() {
